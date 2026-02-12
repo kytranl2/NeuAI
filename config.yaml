@@ -1,5 +1,5 @@
 model:
-  path: models/mobilenet_v2_1.0_224_quantized.tflite
+  path: models/mobilenet_v2_1.0_224_quant.tflite
   labels: models/labels.txt
 
 camera:
