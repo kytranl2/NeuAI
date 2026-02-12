@@ -1,0 +1,16 @@
+model:
+  path: models/mobilenet_v2_1.0_224_quantized.tflite
+  labels: models/labels.txt
+
+camera:
+  width: 224
+  height: 224
+  framerate: 30
+
+inference:
+  num_threads: 4
+  use_xnnpack: true
+  top_k: 5
+
+monitor:
+  log_interval: 100
